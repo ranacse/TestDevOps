@@ -1,9 +1,18 @@
-<p>Its a Null page. 2nd  page</p>
+<p>after afetr Push to git</p>
 <div style="padding-left:20px">
     <h1>Responsive Header</h1>
     <p>Resize the browser window to see the effect.</p>
     <p>Some content..</p>
 </div>
+
+<h1>{{title}}</h1>
+ 
+  <p>Heroes:</p>
+  <ul>
+    <li *ngFor="let hero of products">
+      {{ hero.owner.login }}
+      </li>
+  </ul>
 <h2>Responsive Form</h2>
 <p>Resize the browser window to see the effect. When the screen is less than 600px wide, make the two columns stack on
     top of each other instead of next to each other.</p>
